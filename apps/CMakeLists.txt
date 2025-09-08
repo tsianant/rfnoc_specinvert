@@ -21,14 +21,14 @@
 #endif(MSVC)
 #find_package(Boost 1.65 REQUIRED ${BOOST_REQUIRED_COMPONENTS})
 #
-#add_executable(probe_gain_block
-#    probe_gain_block.cpp
+#add_executable(probe_specinvert_block
+#    probe_specinvert_block.cpp
 #)
 #target_include_directories(
-#    probe_gain_block
+#    probe_specinvert_block
 #    PRIVATE ${CMAKE_SOURCE_DIR}/include
 #)
-#target_link_libraries(probe_gain_block
+#target_link_libraries(probe_specinvert_block
 #    ${UHD_LIBRARIES}
 #    ${Boost_LIBRARIES}
 #    -Wl,--no-as-needed
@@ -38,7 +38,7 @@
 #### Once it's built... ########################################################
 ## Typically you would install the apps into $PATH, which is what we do here.
 #install(
-#    TARGETS probe_gain_block
+#    TARGETS probe_specinvert_block
 #    RUNTIME
 #    DESTINATION ${RUNTIME_DIR}
 #    COMPONENT apps

@@ -1,7 +1,7 @@
 # RFNoC Out-of-Tree Module
 
 This is a template for creating an RFNoC out-of-tree module. It is based on the
-rfnoc-gain example that ships with UHD.
+rfnoc-specinvert example that ships with UHD.
 
 We recommend sticking to this directory structure and file layout.
 
@@ -130,7 +130,7 @@ mkdir build && cd build && cmake .. -DUHD_FPGA_DIR=/path/to/uhd/fpga  # Configur
 # Now, launch an image build and use all files from this directory:
 rfnoc_image_builder -y ../icores/x310_rfnoc_image_core.yml -I ../rfnoc
 make install  # Install software and gateware
-# Build again, without -I:
+# Build aspecinvert, without -I:
 rfnoc_image_builder -y ../icores/x310_rfnoc_image_core.yml
 ```
 

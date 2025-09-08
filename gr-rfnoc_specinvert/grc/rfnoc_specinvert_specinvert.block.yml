@@ -3,7 +3,7 @@
 # it to work properly. It is recommended to go through all the sections of
 # this file and adjust them to your needs.
 id: rfnoc_specinvert_specinvert
-label: RFNoC Gain Block (Generic Version)
+label: RFNoC Specinvert Block (Generic Version)
 category: '[rfnoc_specinvert]'
 
 templates:
